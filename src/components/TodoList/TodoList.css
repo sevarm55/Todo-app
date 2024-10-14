@@ -1,0 +1,50 @@
+.todo-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.todo-footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 15px;
+	background-color: #f9f9f9;
+	border-top: 1px solid #e6e6e6;
+	font-size: 0.9rem;
+	color: #777;
+}
+
+.filters {
+	display: flex;
+	gap: 10px;
+}
+
+.span {
+	display: flex;
+	align-items: center;
+}
+
+.filters button {
+	background: none;
+	border: none;
+	cursor: pointer;
+	font-size: 1rem;
+	color: #777;
+}
+
+.filters button.active {
+	border: 1px solid rgba(175, 47, 47, 0.2);
+	border-radius: 3px;
+	padding: 3px 7px;
+}
+
+.clear-completed {
+	cursor: pointer;
+	background: none;
+	border: none;
+	color: #777;
+}
+
+.clear-completed:hover {
+	text-decoration: underline;
+}
